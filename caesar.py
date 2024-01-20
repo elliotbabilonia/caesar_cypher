@@ -29,12 +29,8 @@ if __name__ == "__main__":
     message = "HelloWorld"
     key = 10
 
-    # Encrypting the message
     encrypted = encrypt(message, key)
-
-    # Decrypting the encrypted message
     decrypted = decrypt(encrypted, key)
 
-    # Printing the results
     print("Your encrypted word is:", encrypted)
     print("Your decrypted word is:", decrypted)
